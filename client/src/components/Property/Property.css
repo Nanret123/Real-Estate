@@ -1,0 +1,46 @@
+.single-property{
+	position: relative;
+	background: #fff;
+	border-radius: 0.25rem;
+	margin: 2rem 0;
+	box-shadow:0 5px 15px rgba(0, 0, 0, 0.1) ;
+	transition: all 0.3s linear;
+	z-index: 0;
+}
+
+.single-property button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+	font-size: 10px;
+}
+.single-property button .heart{
+	font-size: 1.5rem;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.single-property:hover{
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.single-property img{
+	width: 100%;
+	height: 10rem;
+	object-fit: cover;
+	order-top-right-radius: 0.25rem;
+  border-top-left-radius:0.25rem;
+}
+
+.property-info{
+	 display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: black;
+}
+.single-property p{
+	color: black;
+}
